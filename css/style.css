@@ -16,13 +16,13 @@ input[type=number]{
 
 button {   
     border: 0;
-    background-color: skyblue;
+    background-color: #98daf5;
     padding: 8px;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .color-section {
-    background-color: aliceblue;
+    background-color: #eef0f1;
     padding: 12px;
 }
 
