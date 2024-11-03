@@ -6,24 +6,44 @@ main {
 
 input[type=number]{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px;
+    margin-bottom: 15px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
 }
 
-button {   
-    border: 0;
-    background-color: #98daf5;
-    padding: 8px;
-    border-radius: 4px;
+label {
+    display: inline;
+    margin-top: 4px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-.color-section {
-    background-color: #eef0f1;
+
+button {   
+    border: 0;
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-weight: 790;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0069d9;
+}
+
+.container {
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 88%;
+    background-color: #e4eaed;
     padding: 12px;
+    margin-bottom: 20px;
 }
 
 .text-center {
