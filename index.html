@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mini Project RevoU Azmi Punya</title>
     <link rel="stylesheet" href="css\style.css">
 </head>
 
@@ -29,8 +29,7 @@
             <!-- DATA FORM -->
             <form class="container">
                 <div class="form-group">
-                    <label for="jenis-kelamin">Jenis Kelamin<br></label>
-
+                    <label for="jenis-kelamin" id="jenis-kelamin" name="jenis-kelamin">Jenis Kelamin<br></label>
                     <input type="radio" id="pria" name="jenis-kelamin" value="pria">
                     <label for="pria">Pria</label>
 
@@ -84,19 +83,22 @@
             </header>
 
             <!-- HASIL DARI KALKULASI-->
-            <div class="text-center container">
-                <h4>Hasil Kalkulasi</h4>
+            <div class="text-center" id="container" id="resultText">
 
-                <p id="result">25,7</p>
+                <P id="resultText">Berat Badan Lebih</P>
+                <p id="resultNumber">25</p>
+                <p id="resultDetails">Anda memiliki berat badan berlebih</p>
 
                 <button>Download Hasil BMI</button>
+
             </div>
 
             <!-- INFO DARI HASIL -->
             <article>
-                <p>Hasil BMI diantara 23 dan 25</p>
+                <p>Jika hasil BMI lebih dari 25</p>
 
-                <p>Anda berada dalam kategori overweight atau berat badan berlebih.Cara terbaik untuk menurunkan<br>
+                <p id="resultDetails">Anda berada dalam kategori overweight atau berat badan berlebih.Cara terbaik untuk
+                    menurunkan<br>
                     berat badan adalah dengan mengatur kalori makanan yang dikonsumsi dan berolahraga.<br>
                     Jika BMI Anda berada dalam kategori ini maka Anda dianjurkan untuk menurunkan berat badan <br>
                     hingga batas normal.</p>
@@ -129,11 +131,11 @@
 
             <!-- INI FOOTER -->
             <footer>
-                <h4>Download Aplikasi</h4>
+                <h4 class="links" id="links">Download Aplikasi</h4>
             </footer>
         </section>
     </main>
-
+    <script src="js\script.js"></script>
 </body>
 
 </html>

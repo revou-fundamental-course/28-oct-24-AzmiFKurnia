@@ -2,6 +2,8 @@
 main {
     display: flex;
     justify-content: space-around;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
 }
 
 input[type=number]{
@@ -50,9 +52,42 @@ button:hover {
     text-align: center;
 }
 
-#result {
+#container {
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 88%;
+    background-color: #e4eaed;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+
+#resultText {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#resultNumber {
     font-size: 30px;
     font-weight: bold;
+}
+
+#resultDetails {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.links a:hover {
+    color: #0069d9;
 }
 
 footer {
