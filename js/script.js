@@ -7,10 +7,13 @@ const resultNumberElement = document.getElementById('resultNumber')
 const resultDetailsElement = document.getElementById('resultDetails');
 const linksElement = document.getElementById('links');
 const containerElement = document.getElementById('container');
+
 // mengakses button
 calculateBMIButton.addEventListener('click', calculateBMI);
 resetButton.addEventListener('click', resetForm);
-// menimbulkan fungsi
+
+
+// memproses data form
 function calculateBMI(event) {
     event.preventDefault();
     const jenisKelamin = document.getElementById('jenis-kelamin').value;
@@ -18,7 +21,7 @@ function calculateBMI(event) {
     const usia = parseInt(document.getElementById('usia').value);
     const tinggiBadan = parseInt(document.getElementById('tinggi-badan').value);
     const bmi = calculateBMIValue(beratBadan, tinggiBadan);
-// memproses data form
+
     resultTextElement.textContent = `BMI kamu adalah ${bmi.toFixed(2)}`;
     resultNumberElement.textContent = `${bmi.toFixed(2)}`;
 

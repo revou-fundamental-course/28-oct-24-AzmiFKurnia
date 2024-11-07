@@ -11,7 +11,7 @@
 <body>
     <main>
         <!-- SECTION FORM -->
-        <section style="width: 50%;height: 550px;float: left;">
+        <section>
             <div>
                 <!-- INI HEADER 1 -->
                 <header>
@@ -49,7 +49,7 @@
 
                 <!-- BUTTON KALKULATOR -->
                 <button id="calculate-bmi">Hitung BMI</button>
-                <button id="reset" style="background-color: rgb(240 248 249); color: black;">Reset</button>
+                <button id="reset">Reset</button>
             </form>
 
             <div>
@@ -76,7 +76,7 @@
         </section>
 
         <!-- SECTION RESULT -->
-        <section style="width: 50%;height: 550px;float: left;">
+        <section>
             <!-- INI HEADER 1 -->
             <header>
                 <h1>Hasil</h1>
@@ -88,8 +88,6 @@
                 <P id="resultText">Berat Badan Lebih</P>
                 <p id="resultNumber">25</p>
                 <p id="resultDetails">Anda memiliki berat badan berlebih</p>
-
-                <button>Download Hasil BMI</button>
 
             </div>
 
@@ -104,10 +102,10 @@
                     hingga batas normal.</p>
 
                 <!-- BUTTON KONSUL -->
-                <button>Konsultasi Ahli Gizi Via Aplikasi</button>
-                <button>Registrasi Online Ahli Gizi</button>
+                <button onclick="window.location.href='https://www.halodoc.com/tanya-dokter/kategori/spesialis-gizi-klinik?srsltid=AfmBOoq9ZujEsuqLJ_o_ey1yf9Rq_St2khEn3xbuSYOvrll_F2B7njiI';">Konsultasi Ahli Gizi Via Aplikasi</button>
+                <button onclick="window.location.href='https://www.halodoc.com/tanya-dokter/kategori/spesialis-gizi-klinik?srsltid=AfmBOoq9ZujEsuqLJ_o_ey1yf9Rq_St2khEn3xbuSYOvrll_F2B7njiI';">Registrasi Online Ahli Gizi</button>
 
-                <p>BMI tidak sepenulinya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit<br>
+                <p>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit<br>
                     seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait
                     dengan<br>
                     berat badan Anda.</p>
@@ -125,13 +123,13 @@
                 </p>
 
                 <!-- BUTTON KONSUL -->
-                <button>Konsultasi Dokter Via Aplikasi</button>
-                <button>Registrasi Online Sekarang</button>
+                <button onclick="window.location.href='https://www.halodoc.com/tanya-dokter/kategori/spesialis-gizi-klinik?srsltid=AfmBOoq9ZujEsuqLJ_o_ey1yf9Rq_St2khEn3xbuSYOvrll_F2B7njiI';">Konsultasi Dokter Via Aplikasi</button>
+                <button onclick="window.location.href='https://www.halodoc.com/tanya-dokter/kategori/spesialis-gizi-klinik?srsltid=AfmBOoq9ZujEsuqLJ_o_ey1yf9Rq_St2khEn3xbuSYOvrll_F2B7njiI';">Registrasi Online Sekarang</button>
             </div>
 
             <!-- INI FOOTER -->
             <footer>
-                <h4 class="links" id="links">Download Aplikasi</h4>
+                <h4 class="links" id="links">Untuk informasi lebih lanjut, konsultasikan dengan profesional kesehatan. <a href="https://play.google.com/store/apps/details?id=com.example.bmicalculator" target="_blank">Unduh aplikasi di Google Play</a> or <a href="https://apps.apple.com/us/app/bmi-calculator/id123456789" target="_blank">App Store</a></h4>
             </footer>
         </section>
     </main>
